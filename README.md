@@ -22,16 +22,10 @@ deno add jsr:@anshu-krishna/ansi-escape-codes
 import AEC from "jsr:@anshu-krishna/ansi-escape-codes";
 ```
 
-or use HTTPS import from Statically CDN
-
-```typescript
-import AEC from "https://cdn.statically.io/gh/anshu-krishna/deno-ansi-escape-codes/main/ansi-esc-codes.ts";
-```
-
 or use HTTPS import from jsDelivr CDN
 
 ```typescript
-import AEC from "https://cdn.jsdelivr.net/gh/anshu-krishna/deno-ansi-escape-codes@1.0.3/main/ansi-esc-codes.ts";
+import AEC from "https://cdn.jsdelivr.net/gh/anshu-krishna/deno-ansi-escape-codes@1.0.3/ansi-esc-codes.ts";
 ```
 
 
