@@ -38,7 +38,7 @@ npx jsr add @anshu-krishna/ansi-escape-codes
 import AEC from "@anshu-krishna/ansi-escape-codes";
 ```
 
-## Usage
+## Usage Examples
 
 ### Text Formatting
 
@@ -57,6 +57,8 @@ console.log(`${AEC.cursor.up(2)}Move cursor up 2 lines`);
 ```typescript
 console.log(`${AEC.erase.entireScreen}Clear the screen`);
 ```
+
+And many more... [See list in codes.md](./codes.md)
 
 ## License
 
