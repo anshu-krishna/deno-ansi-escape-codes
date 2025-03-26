@@ -12,30 +12,45 @@ A lightweight library for working with ANSI escape codes in Deno. This library p
 
 ## Installation
 
-Import the library directly from the repository:
+### For Deno
+
+```shell
+deno add jsr:@anshu-krishna/ansi-escape-codes
+```
 
 ```typescript
-// Pending
+import AEC from "jsr:@anshu-krishna/ansi-escape-codes";
 ```
+
+
+### For Node.js
+```shell
+npx jsr add @anshu-krishna/ansi-escape-codes
+```
+
+```typescript
+import AEC from "@anshu-krishna/ansi-escape-codes";
+```
+
 
 ## Usage
 
 ### Text Formatting
 
 ```typescript
-console.log(`${ANSIEscapeCodes.textColor.red}This is red text${ANSIEscapeCodes.reset}`);
+console.log(`${AEC.textColor.red}This is red text${AEC.reset}`);
 ```
 
 ### Cursor Movement
 
 ```typescript
-console.log(`${ANSIEscapeCodes.cursor.up(2)}Move cursor up 2 lines`);
+console.log(`${AEC.cursor.up(2)}Move cursor up 2 lines`);
 ```
 
 ### Screen Erasing
 
 ```typescript
-console.log(`${ANSIEscapeCodes.erase.entireScreen}Clear the screen`);
+console.log(`${AEC.erase.entireScreen}Clear the screen`);
 ```
 
 ## License
