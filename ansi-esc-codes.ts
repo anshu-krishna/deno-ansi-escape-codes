@@ -9,7 +9,11 @@ const ANSIEscapeCodes = {
 	italicStop: "\x1B[23m",		// Disable italic
 
 	underline: "\x1B[4m",		// Underline
+	doubleUnderline: "\x1B[21m",// Double underline
 	underlineStop: "\x1B[24m",	// Disable underline
+
+	overline: "\x1B[53m",		// Overline
+	overlineStop: "\x1B[55m",	// Disable overline
 	
 	blinkSlow: "\x1B[5m",		// Slow blink
 	blinkRapid: "\x1B[6m",		// Rapid blink (not widely supported)
