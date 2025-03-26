@@ -1,6 +1,6 @@
 {
 	"name": "@anshu-krishna/ansi-escape-codes",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A simple library containing ANSI escape codes for text formatting.",
 	"exports": "./ansi-esc-codes.ts",
 	"license": "MIT"
